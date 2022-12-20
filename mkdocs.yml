@@ -1,3 +1,23 @@
-site_name: My Docs
+site_name: Marcos - Dev
 theme:
   name: material
+  features:
+    - header.autohide
+  palette:
+    scheme: slate
+    accent: blue
+    primary: orange
+extra:
+  # generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/129-ornellas
+      name: Marcos on Github
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/marcos-ornellas-7546b81ba/
+      name: Marcos on Linkedin
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
